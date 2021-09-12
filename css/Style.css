@@ -1,12 +1,4 @@
 
-.responsive {
-  display: block;
-  width: 50%;
-  height: auto;
-
-  margin-left: auto; 
-margin-right: auto;
-}
 
 * {
   box-sizing: border-box;
@@ -24,25 +16,38 @@ body {
   max-width: 1000px;
   margin: auto;
 }
+/* ################### ESTATUAS #################################*/
+/* Centrar imágenes de estatuas*/
+.responsive {
+  display: block;
+  width: 50%;
+  height: auto;
 
+  margin-left: auto; 
+  margin-right: auto;
+}
+/* Estilo de Títulos de estatuas*/
 h3 {
   font-size: 50px;
   color: #4C4C4B;
   word-break: break-all;
+  text-align: center;
 }
-.etiqueta {
+/* Etiqueta de estatuas */
+.Etiqueta {
   width:90%;
-   height:10%;
+   height:auto;
   background-color: #E89B93;
   border:3px;
   border-radius: 22px;
+   box-shadow: 2px 2px 5px #999;
   
 }
+/* Centrado de etiqueta */
 .DentroEtiqueta{
   text-align:center;
 }
-
-
+/* Margenes del row de estatuas*/
 .row {
   margin: 8px -16px;
 }
@@ -53,7 +58,7 @@ h3 {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Crear tres columnas */
 .column {
   float: left;
   width: 33%;
@@ -69,10 +74,9 @@ h3 {
 /* Content */
 .content {
 
-  padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/*################# Para pantallas de >900 px*/
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
@@ -85,8 +89,8 @@ h3 {
 }
 
 }
+/*################# Para pantallas de >600 px*/
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -99,54 +103,3 @@ h3 {
 }
 
 }
-/*
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.sidenav-trigger {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-*/
