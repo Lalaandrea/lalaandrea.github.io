@@ -7,7 +7,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 banner{
-    background-image: url(/Images/Roses.png);
+    background-image: url(../Images/Roses.png);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -38,7 +38,7 @@ h1{
 /* Centrar imágenes de estatuas*/
 .responsive {
   display: block;
-  width: 50%;
+  width: 90%;
   height: auto;
 
   margin-left: auto; 
